@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 20em;
+}
+.quote::after{
+  content: "\2019";
+}
+.left_dquote::before {
+  content: "\201C";
+}
+.right_dquote::after {
+  content: "\201D";
+}
